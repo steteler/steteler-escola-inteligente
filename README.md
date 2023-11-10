@@ -314,8 +314,7 @@ O método `coletarInformacoes` realiza a leitura da idade de todas as pessoas es
 
 1. Ao iniciar a aplicação e a opção 3 for escolhida, o método `coletarInformacoes` da
    classe `Portaria`será chamado.
-2. **Inserir idade das pessoas estudantes no sistema:** essa etapa se repete até que a opção de finalizar acessos seja escolhida. A idade das pessoas estudantes deve ser armazenada em um array de tamanho dinâmico, já que não sabemos quantas pessoas estudantes entrarão na escola. *Dica:* utilize a classe `ArrayList` do Java para a criação e manipulação de arrays de tamanho dinâmico.
-   Para mais informações você pode consultar o site da [W3Schools](https://www.w3schools.com/java/java_arraylist.asp) ou [JavaPoint](https://www.javatpoint.com/java-arraylist), ou então verificar a documentação da Oracle.
+2. **Contabilizar a idade das pessoas estudantes no sistema:** essa etapa se repete até que a opção de finalizar acessos seja escolhida. É importante frisar que nesta etapa, a idade deve ser apenas contabilizada para fins estatísticos ou de registro, sem a necessidade de armazenamento em um array ou qualquer outra estrutura de dados. O foco é no processo de contagem e registro do número total, e não no armazenamento individual das idades.
 
 3. **Finalizar o sistema e mostrar o relatório:** nessa etapa, o laço de repetição deve ser terminado e então o relatório deve ser impresso no console. O relatório deve conter o total de pessoas estudantes que acessaram a escola através da portaria, e também o número de pessoas estudantes do ensino fundamental I (de 6 a 10 anos), o número de pessoas estudantes do ensino fundamental II (de 11 a 14 anos) e o número de pessoas estudantes do ensino médio (a partir de 15 anos). O relatório também deve calcular, em relação ao total de pessoas estudantes, a porcentagem delas por categoria de ensino.
 
