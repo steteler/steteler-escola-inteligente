@@ -31,8 +31,10 @@ public class PessoaEstudante {
     System.out.print("dias: ");
     int dias = pessoaScanner.nextInt();
 
-    pessoaScanner.close();
+    System.out.println(
+        "A idade de " + nome + " em dias é " + calcularIdadeEmDias(anos, meses, dias) + "."
+    );
 
-    System.out.println("A idade de " + nome + " em dias é " + calcularIdadeEmDias(anos, meses, dias) + ".");
+    pessoaScanner.close();
   }
 }
