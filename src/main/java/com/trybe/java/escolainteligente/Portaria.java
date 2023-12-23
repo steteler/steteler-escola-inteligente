@@ -79,15 +79,15 @@ public class Portaria {
         int idade = portariaScanner.nextInt();
 
         if (idade <= 10) {
-          qtdFundamental1 += 1;
+          qtdFundamental1++;
 
           System.out.println("Pessoa estudante do Ensino Fundamental I, catraca liberada!");
         } else if (idade <= 14) {
-          qtdFundamental2 += 1;
+          qtdFundamental2++;
 
           System.out.println("Pessoa estudante do Ensino Fundamental II, catraca liberada!");
         } else {
-          qtdMedio += 1;
+          qtdMedio++;
 
           System.out.println("Pessoa estudante do Ensino Médio, catraca liberada!");
         }
@@ -97,6 +97,7 @@ public class Portaria {
       } else {
         System.out.println("Entre com uma opção válida!");
       }
+      portariaScanner.close();
     }
   }
 }

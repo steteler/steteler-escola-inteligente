@@ -34,12 +34,12 @@ public class Secretaria {
     System.out.print("Avaliação 4: ");
     double nota4 = secretariaScanner.nextDouble();
 
+    secretariaScanner.close();
+
     double media = calcularMedia(nota1, nota2, nota3, nota4);
 
     System.out.println(
         "A média das notas de " + nome + " é " + media
     );
-
-    secretariaScanner.close();
   }
 }
