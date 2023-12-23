@@ -2,9 +2,6 @@ package com.trybe.java.escolainteligente;
 
 import java.util.Scanner;
 
-/**
- * Classe Portaria.
- */
 public class Portaria {
 
   /**
@@ -82,15 +79,15 @@ public class Portaria {
         int idade = portariaScanner.nextInt();
 
         if (idade <= 10) {
-          qtdFundamental1++;
+          qtdFundamental1 += 1;
 
           System.out.println("Pessoa estudante do Ensino Fundamental I, catraca liberada!");
         } else if (idade <= 14) {
-          qtdFundamental2++;
+          qtdFundamental2 += 1;
 
           System.out.println("Pessoa estudante do Ensino Fundamental II, catraca liberada!");
         } else {
-          qtdMedio++;
+          qtdMedio += 1;
 
           System.out.println("Pessoa estudante do Ensino Médio, catraca liberada!");
         }
