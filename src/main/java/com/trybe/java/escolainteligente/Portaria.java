@@ -101,6 +101,5 @@ public class Portaria {
         System.out.println("Entre com uma opção válida!");
       }
     }
-    portariaScanner.close();
   }
 }
