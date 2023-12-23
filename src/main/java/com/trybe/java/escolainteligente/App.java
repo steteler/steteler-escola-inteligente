@@ -2,6 +2,9 @@ package com.trybe.java.escolainteligente;
 
 import java.util.Scanner;
 
+/**
+ * Classe App.
+ */
 public class App {
 
   /**

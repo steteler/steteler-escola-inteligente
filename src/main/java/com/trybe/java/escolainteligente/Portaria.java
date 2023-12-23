@@ -2,6 +2,9 @@ package com.trybe.java.escolainteligente;
 
 import java.util.Scanner;
 
+/**
+ * Classe Portaria.
+ */
 public class Portaria {
 
   /**
@@ -12,7 +15,7 @@ public class Portaria {
     System.out.println("Ensino Fundamental I: " + qtdFundamental1);
     System.out.println("Ensino Fundamental II: " + qtdFundamental2);
     System.out.println("Ensino Médio: " + qtdMedio);
-    System.out.println("");
+    System.out.println();
     System.out.println("----- Percentual -----");
 
     int total = qtdFundamental1 + qtdFundamental2 + qtdMedio;
@@ -53,7 +56,7 @@ public class Portaria {
             "Ensino Médio: " + format, porcentagemMedio
         ) + "%"
     );
-    System.out.println("");
+    System.out.println();
     System.out.println("TOTAL: " + total);
   }
 
@@ -98,5 +101,7 @@ public class Portaria {
         System.out.println("Entre com uma opção válida!");
       }
     }
+    
+    portariaScanner.close();
   }
 }
