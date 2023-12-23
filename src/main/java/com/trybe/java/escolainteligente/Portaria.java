@@ -2,6 +2,9 @@ package com.trybe.java.escolainteligente;
 
 import java.util.Scanner;
 
+/**
+ * Classe Portaria.
+ */
 public class Portaria {
 
   /**

@@ -2,6 +2,9 @@ package com.trybe.java.escolainteligente;
 
 import java.util.Scanner;
 
+/**
+ * Classe PessoaEstudante.
+ */
 public class PessoaEstudante {
 
   /**
